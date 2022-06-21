@@ -4,6 +4,7 @@ Welcome to your new chainfactor project. This project is for Supernova hackathon
 - superheroes
 - dip-721-nft-container
 - basic_dao
+
 Chainfactor app combines the canisters to form this proof of concept app.  It provides a user interface to input invoices and then demonstrate that it can use the invoice data and details to deploy and mint a nft.  It then also creates a basic dao programmically with motoko (rather than running as   canisters independently via command line). This combinations of canisters using motoko forms the basic foundation of the chainfactor app.  
 
 
