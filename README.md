@@ -37,8 +37,9 @@ After chainfactor is deployed to dfx local then the below links would display on
 URLs:
 
   Frontend:
-    chainfactor_assets: http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai
+  chainfactor_assets: http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai
+  
   Candid:
-    basic_dao: http://127.0.0.1:8000/?canisterId=rkp4c-7iaaa-aaaaa-aaaca-cai&id=rno2w-sqaaa-aaaaa-aaacq-cai
-    chainfactor: http://127.0.0.1:8000/?canisterId=rkp4c-7iaaa-aaaaa-aaaca-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai
-    dip721_nft_container: http://127.0.0.1:8000/?canisterId=rkp4c-7iaaa-aaaaa-aaaca-cai&id=r7inp-6aaaa-aaaaa-aaabq-cai
+  basic_dao: http://127.0.0.1:8000/?canisterId=rkp4c-7iaaa-aaaaa-aaaca-cai&id=rno2w-sqaaa-aaaaa-aaacq-cai
+  chainfactor: http://127.0.0.1:8000/?canisterId=rkp4c-7iaaa-aaaaa-aaaca-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai
+  dip721_nft_container: http://127.0.0.1:8000/?canisterId=rkp4c-7iaaa-aaaaa-aaaca-cai&id=r7inp-6aaaa-aaaaa-aaabq-cai
