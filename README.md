@@ -35,7 +35,7 @@ After chainfactor is deployed to dfx local then the below links would display on
 **IMPORTANT: **the NFT and DAO outputs and statuses are only displayed on commandline.  
 
 
-# After dfx deploy, the following URLs would display on command line:
+## After dfx deploy, the following URLs would display on command line:
 
 Frontend:
 
