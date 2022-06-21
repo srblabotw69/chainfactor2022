@@ -11,15 +11,19 @@ Chainfactor app combines the canisters to form this proof of concept app.  It pr
 ## Installation
 
 Install React:
+
 npm install --save react react-dom
 
 Install Typescript:
+
 npm install --save-dev typescript ts-loader
 
 Install Bootstrap: 
+
 npm install react-bootstrap bootstrap
 
 dfx start --background
+
 dfx deploy
  
 ## Version
