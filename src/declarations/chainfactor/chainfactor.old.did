@@ -1,0 +1,19 @@
+type List = 
+ opt record {
+       text;
+       List;
+     };
+type InvoiceId = nat32;
+type Invoice = 
+ record {
+   details: List;
+   name: text;
+ };
+service : {
+  create: (Invoice) -> (InvoiceId);
+  createNFT: (InvoiceId) -> () oneway;
+  delete: (InvoiceId) -> (bool);
+  read: (InvoiceId) -> (opt Invoice) query;
+  readText: (InvoiceId) -> (text) query;
+  update: (InvoiceId, Invoice) -> (bool);
+}

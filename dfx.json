@@ -1,0 +1,41 @@
+{
+  "canisters": {
+    "chainfactor": {
+      "main": "src/chainfactor/main.mo",
+      "type": "motoko"
+    },
+    "chainfactor_assets": {
+      "dependencies": [
+        "chainfactor"
+      ],
+      "frontend": {
+        "entrypoint": "src/chainfactor_assets/src/index.html"
+      },
+      "source": [
+        "src/chainfactor_assets/assets",
+        "dist/chainfactor_assets/"
+      ],
+      "type": "assets" 
+    },
+    "dip721_nft_container": {
+      "main": "src/dip-721-nft-container/main.mo" 
+    },
+    "basic_dao": {
+      "main": "src/basic_dao/main.mo" 
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.10.0",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}

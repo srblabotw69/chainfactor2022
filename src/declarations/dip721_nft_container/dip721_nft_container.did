@@ -1,0 +1,14 @@
+type List = 
+ opt record {
+       text;
+       List;
+     };
+type Invoice = 
+ record {
+   name: text;
+   superpowers: List;
+ };
+service : {
+  createNFT: (text) -> () oneway;
+  getNFT: (opt Invoice) -> (text);
+}
